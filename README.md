@@ -20,16 +20,20 @@ This will allow you to right-click on any folder, open in terminal, and run `ini
 
 Using your shell or terminal of choice, and set up as directed (or similarly): 
 
-
 ```powershell
 PS C:\temp> init_project
 Enter the project name: my test project
 my test project template initialized
 Press any key to continue . . .
+```
+
+## Folders and Files Initialized
+
+```powershell
 PS C:\temp> cd "my test project"
 PS C:\temp\my test project> tree /F
 Folder PATH listing
-Volume serial number is 0000-0000
+
 C:.
 │   readme.md
 │
@@ -43,11 +47,7 @@ C:.
 │   ├───in
 │   └───out
 └───sql
-PS C:\temp\my test project>
 ```
-
-## Folders and Files Initialized
-
 As I currently use this:
 - `data` is for client-provided data.
 - `documents` is for special instructions or requirements.
