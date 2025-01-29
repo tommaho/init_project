@@ -27,15 +27,19 @@ Enter the project name: my test project
 my test project template initialized
 Press any key to continue . . .
 PS C:\temp> cd "my test project"
-PS C:\temp\my test project> tree
+PS C:\temp\my test project> tree /F
 Folder PATH listing
 Volume serial number is 0000-0000
 C:.
+│   readme.md
+│
 ├───data
 ├───documents
 ├───drafts
 ├───final
 ├───notebooks
+│   │   my test project.ipynb
+│   │
 │   ├───in
 │   └───out
 └───sql
@@ -43,18 +47,8 @@ PS C:\temp\my test project>
 ```
 
 ## Folders and Files Initialized
-```bash
-├───data
-├───documents
-├───drafts
-├───final
-├───notebooks
-│   ├───in
-│   └───out
-│   └───[project name].ipynb
-└───sql
-└───readme.md
-```
+
+As I currently use this:
 - `data` is for client-provided data.
 - `documents` is for special instructions or requirements.
 - `drafts` is for works in progress and not-finalized products.
